@@ -79,6 +79,8 @@ public class BasePage {
 		} catch (NoSuchElementException e) {
 			Assert.fail("Element is not found with this locator: " + locator.toString());
 			e.printStackTrace();
+
+			//test
 		}
 	}
 
